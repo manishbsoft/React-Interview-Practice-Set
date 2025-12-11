@@ -1,11 +1,14 @@
-import "./App.css";
-import ProductForm from "./pages/ProductForm";
+import './App.css'
+import ProductForms from './pages/ProductForms'
+// import ProductPage from './pages/ProductPage'
 
-export default function App() {
-
+function App() {
   return (
     <>
-      <ProductForm />
+      {/* <ProductPage /> */}
+      <ProductForms />
     </>
-  );
+  )
 }
+
+export default App
