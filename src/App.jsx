@@ -1,14 +1,18 @@
-import './App.css'
-import ProductForms from './pages/ProductForms'
+import "./App.css";
+import Counter from "./pages/Counter/Counter";
+import Login from "./pages/Login";
+import ProductForms from "./pages/ProductForms";
 // import ProductPage from './pages/ProductPage'
 
 function App() {
   return (
     <>
       {/* <ProductPage /> */}
-      <ProductForms />
+      {/* <Login /> */}
+      {/* <ProductForms /> */}
+      <Counter />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
