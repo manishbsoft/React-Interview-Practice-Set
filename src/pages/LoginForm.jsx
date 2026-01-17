@@ -4,7 +4,7 @@ import React, {
   useMemo,
 } from "react";
 
-/* -------------------- Reducer -------------------- */
+/* -------------------- Form Reducer -------------------- */
 const formReducer = (state, action) => {
   switch (action.type) {
     case "INPUT_CHANGE":
